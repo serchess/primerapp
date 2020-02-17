@@ -16,6 +16,7 @@ class MainActivity : AppCompatActivity() {
             var v=
             getSystemService(Context.VIBRATOR_SERVICE) as Vibrator
         v.vibrate(3000)
+            //Esta es una prueba
         }
 
     }
