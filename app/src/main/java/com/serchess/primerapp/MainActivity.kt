@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
         ingresar.setOnClickListener {
             var v=
             getSystemService(Context.VIBRATOR_SERVICE) as Vibrator
-        v.vibrate(3000)
+        v.vibrate(4000)
             //Esta es una prueba
         }
 
